@@ -21,7 +21,7 @@ let isPaused = true;
 let currentMode = 'pomodoro'; 
 
 const pomodoroTime = 25 * 60; // 25分
-const breakTime = 3 * 60; // 3分
+const breakTime = 5 * 60; // 5分
 
 
 //　アラームの再生回数
@@ -195,4 +195,5 @@ memeSound.addEventListener('ended', () => {
     } else {
         memePlayCount = 0;
     }
+
 });
